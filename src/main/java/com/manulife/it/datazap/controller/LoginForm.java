@@ -9,9 +9,10 @@ public class LoginForm {
 	
 	@NotNull
     @Size(min = 2, max = 30)
-	
+	// added username
     private String userName;
 
+	// password validation
     @NotNull
     @Min(5)
     @Pattern(regexp ="^\\+?[0-9. ()-]{7,25}$", message = "password is required or not valid ")
