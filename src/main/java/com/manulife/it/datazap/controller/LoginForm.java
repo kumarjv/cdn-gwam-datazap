@@ -10,6 +10,8 @@ public class LoginForm {
 	@NotNull
     @Size(min = 2, max = 30)
 	
+	
+// this is for username
     private String userName;
 
     @NotNull
